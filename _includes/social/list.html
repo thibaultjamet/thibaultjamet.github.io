@@ -1,0 +1,11 @@
+{% include social/urls %}
+<ul class="icons {{ include.ul_class }}">
+{% for media in site.icons[include.type] %}
+	{% if site.social[media] %}
+		{% assign key = media | prepend: 'social_medias_' %}
+		{% if [key] %}
+			<li><a class="icon fa-{{ media }} {{ include.li_class }}" href="{{ [key] }}/{{ site.social[media] }}"><span class="label">{{ media | capitalize }}</span></a></li>
+		{% endif %}
+	{% endif %}
+{% endfor %}
+</ul>
