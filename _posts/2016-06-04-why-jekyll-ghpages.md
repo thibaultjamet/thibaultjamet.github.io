@@ -3,13 +3,14 @@ layout: post
 title: Why jekyll / github pages?
 ---
 
-# Motivations
+## Motivations
+
 Being a backend developer as well as a photographer,
 it is kind of a shame that in 2016 I still do not have
 my own website / blog. It is kind of an hurry to get
 started.
 
-# Basics
+## Basics
 
 Obviously, I am a backend developer, not a front end one
 and feel a bit disapointed when it comes to tackle javascript
@@ -18,7 +19,7 @@ and HTML.
 From what I have seen and heard until today there are plenty
 ways of achieving my goal:
 
-## CMS
+### CMS
 - drupal
 - wordpress
 - joomla
@@ -33,7 +34,7 @@ Moreover, I have tried earlier on to start a drupal and a wordpress CMS,
 It always failed, not having enough energy to dive into the complexity of
 what should I do to post a simple page and article
 
-## All-In-One websites
+### All-In-One websites
 
 - 1 and 1 pages
 - wix
@@ -42,7 +43,7 @@ Kind of the same thing as CMS, except there is no formal need to maintain your o
 server. Plus, I noticed some high latency on wix. I want a fast website, we are in 2016
 with high / very high speed connections, I prefer using them for my content.
 
-## Static pages
+### Static pages
 
 - write your own
 - gohugo

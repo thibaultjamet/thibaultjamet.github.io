@@ -8,19 +8,20 @@ repository has been enough to update [thibaultjamet.github.io](https://thibaultj
 It still does not look very nice and would need to have some kind of a sitemap and links
 to my very first post.
 
-# Content editing
+## Content editing
 
 Writing my first post made me go some issue where my markdown files
 where not processed correctly by jekyll. After some quick googling it
 appears that I didn't get/read the point where anything supposed to be
 handled by jekyll must have a yaml block (frontmatter) at its top, as
 explained in [this page](https://jekyllrb.com/docs/frontmatter/)
+
 ```yaml
 ---
 ---
 ```
 
-# Tackling default folders
+## Tackling default folders
 
 So far I played with:
 
@@ -52,7 +53,7 @@ jekyll publish _drafts/my-page-title.md
 Awesome, it includes date generation and special caracters
 escape.
 
-# Layouts
+## Layouts
 
 But, jekyll-compose adds, by default, a layout to each page.
 Then I added a file `_layouts/post.html` that contains 
@@ -69,7 +70,7 @@ layout: default
 
 <mark>Note</mark>: explaining this, I found out that we can insert templatized
 values inside the post. Thus inserting {% raw %}{{ content }}{% endraw %}
-will dump some page content:
+may dump some page content:
 
 ---
 
