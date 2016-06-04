@@ -89,12 +89,12 @@
                 }
             }
 
-			if ($title.length > 0
+			if ($trigger.length > 0
 			&&	$header.hasClass('alt')) {
 
 				$window.on('resize', function() { $window.trigger('scroll'); });
 
-				$title.scrollex({
+				$trigger.scrollex({
 					bottom:		$header.outerHeight() + 1,
 					terminate:	function() { $header.removeClass('alt'); },
 					enter:		function() { $header.addClass('alt'); },
