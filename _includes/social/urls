@@ -2,3 +2,4 @@
 {% assign social_medias_docker = "//hub.docker.com/u" %}
 {% assign social_medias_github = "//www.github.com" %}
 {% assign social_medias_twitter = "//www.twitter.com" %}
+{% assign social_medias_500px = "//www.500px.com" %}
