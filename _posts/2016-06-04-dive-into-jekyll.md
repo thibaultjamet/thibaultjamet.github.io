@@ -1,6 +1,6 @@
 ---
 layout: post
-title: first deploy on github
+title: Playing a bit more with jekyll
 ---
 
 As expected, the first deployment went very smoothly. A simple push to the sources

@@ -1,4 +1,6 @@
 ---
+layout: post
+title: Why jekyll / github pages?
 ---
 
 # Motivations

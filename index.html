@@ -1,0 +1,47 @@
+---
+---
+	<section id="banner">
+		<div class="inner">
+			<h2>{{ site.title }}</h2>
+			<p>{{ site.legend }}
+			<ul class="actions">
+				<li><a href="#dev" class="button special scrolly">Developer</a></li>
+				<li><a href="#photo" class="button special scrolly">Photorapher</a></li>
+			</ul>
+		</div>
+		<a href="#dev" class="more scrolly">Learn More</a>
+	</section>
+
+	<section id="dev" class="wrapper style5 special">
+		<div class="inner">
+			<header class="major">
+				{% include dev_abstract.html %}
+			</header>
+			<ul class="icons major">
+				<li><a class="icon fa-github major" href="https://www.github.com/tjamet"><span class="label">Github</span></a></li>
+				<li><a class="icon fa-docker major" href="https://hub.docker.com/u/tjamet/"><span class="label">Docker</span></a></li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="photo" class="wrapper special style2">
+		<div class="inner">
+			<header class="major">
+				<h2>Photographer</h2>
+				<p>Passionate photographer, I appreciate having various subjects from concerts
+				to studio or landscape.
+				</p>
+			</header>
+		</div>
+	</section>
+
+	<section id="blog" class="wrapper special">
+		<div class="inner">
+			<header class="major">
+				<h2>blog posts</h2>
+			</header>
+			<ul class='features'>
+				{% include post_list %}
+			</ul>
+		</section>
+	</section>
