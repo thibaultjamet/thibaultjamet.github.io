@@ -1,6 +1,22 @@
 title: Thibault Jamet
 legend: Photographer - Backend developer
 url: //thibaultjamet.github.io
+icons:
+  big:
+    - github
+    - docker
+  small:
+    - github
+    - twitter
+    - docker
+    - facebook
+    - 500px
+social:
+    twitter: tjamet
+    github: tjamet
+    docker: tjamet
+    facebook: thib-o.photo
+    500px: thibault-jamet
 defaults:
   -
     scope:
