@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Legal notice
+layout: post
 ---
 
 ## Photos

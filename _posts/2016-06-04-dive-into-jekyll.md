@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Playing a bit more with jekyll
+date: 2016-06-04 00:00:00 Z
+layout: post
 ---
 
 As expected, the first deployment went very smoothly. A simple push to the sources

@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Why jekyll / github pages?
+date: 2016-06-04 00:00:00 Z
+layout: post
 ---
 
 ## Motivations

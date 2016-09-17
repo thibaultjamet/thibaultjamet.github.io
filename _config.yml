@@ -1,25 +1,33 @@
+---
 title: Thibault Jamet
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
 legend: Photographer - Backend developer
-url: //thibaultjamet.github.io
+url: "//thibaultjamet.github.io"
 icons:
   big:
-    - github
-    - docker
+  - github
+  - docker
   small:
-    - github
-    - twitter
-    - docker
-    - facebook
-    - 500px
+  - github
+  - twitter
+  - docker
+  - facebook
+  - 500px
 social:
-    twitter: tjamet
-    github: tjamet
-    docker: tjamet
-    facebook: thib-o.photo
-    500px: thibault-jamet
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "default"
+  twitter: tjamet
+  github: tjamet
+  docker: tjamet
+  facebook: thib-o.photo
+  500px: thibault-jamet
